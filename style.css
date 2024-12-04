@@ -83,9 +83,6 @@ body{
     font-size: 20px;
     margin-top: -6px;
 }
-/* .weather{
-    display:none;
-} */
 .error{
     text-align: left;
     margin-left: 10px;
@@ -93,4 +90,59 @@ body{
     margin-top: 10px;
     display: none;
     color: red;
+}
+
+@media only screen and (max-width:350px){
+    
+    .card{
+        height:100%;
+        width:100%;
+    }
+    .weather-icon{
+    width: 99px;
+    margin-top: 30px;
+    border-radius: 25%;
+    }
+    .search input{
+    height:42px;
+    width:180px;
+      font-size:12px;  
+    }
+    .search button{
+    border: 0;
+    background: #fff;
+    color: #555;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin:-5px;
+}
+.search button img{
+    width: 20px;
+    margin:-5px;
+}
+    .weather h1{
+    font-size: 50px;
+}
+.weather h2{
+    font-size: 35px;
+    margin-top: -10px;
+}
+    .col img{
+    width: 25px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 11px;
+    margin-top: -6px;
+}
+    .col p{
+        font-size:12px;
+        margin:5px;
+    }
+    .col{
+    display: flex;
+    align-items: center;
+    
 }
